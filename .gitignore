@@ -19,5 +19,5 @@ Thumbs.db
 *.log
 *.tmp
 
-# Ignore progress.txt (optional, if you don't want to commit user progress)
+# Ignore progress.txt 
 progress.txt

@@ -1,0 +1,23 @@
+# Ignore compiled class files
+*.class
+
+# Ignore build directories
+bin/
+out/
+build/
+
+# Ignore IDE-specific files
+*.iml
+*.idea/
+*.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore progress.txt (optional, if you don't want to commit user progress)
+progress.txt

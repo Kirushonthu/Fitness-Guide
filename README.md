@@ -38,29 +38,41 @@ It provides everything a user needs to start and maintain a fitness journey — 
 | ⚖ **BMI Calculation** | Computes BMI and displays corresponding category |
 
 ---
-
 ## 🏗 Project Structure
 
+```java
 FitnessGuide/
-├── BodyType.java
-├── Goal.java
-├── Level.java
-├── SplitType.java
-├── User.java
-├── Workout.java
-├── GymWorkout.java
-├── HomeWorkout.java
-├── Diet.java
-├── VegDiet.java
-├── NonVegDiet.java
-├── DietData.java
-├── Schedule.java
-├── ScheduleData.java
-├── ExerciseGuide.java
-├── ProgressTracker.java
-├── Utils.java
-├── FileHandler.java
-├── Motivation.java
+├── 📁 core/
+│   ├── BodyType.java
+│   ├── Goal.java
+│   ├── Level.java
+│   ├── SplitType.java
+│   ├── User.java
+│
+├── 📁 workouts/
+│   ├── Workout.java
+│   ├── GymWorkout.java
+│   ├── HomeWorkout.java
+│   ├── ExerciseGuide.java
+│
+├── 📁 diet/
+│   ├── Diet.java
+│   ├── VegDiet.java
+│   ├── NonVegDiet.java
+│   ├── DietData.java
+│
+├── 📁 schedule/
+│   ├── Schedule.java
+│   ├── ScheduleData.java
+│
+├── 📁 progress/
+│   ├── ProgressTracker.java
+│   ├── FileHandler.java
+│
+├── 📁 utils/
+│   ├── Utils.java
+│   ├── Motivation.java
+│
 ├── Main.java
 └── .gitignore
 
@@ -109,25 +121,32 @@ FitnessGuide/
 1. Clone this repository:
    ```bash
    git clone https://github.com/Kirushonthu/FitnessGuide.git
-2. Navigate to the project directory:
 
-cd FitnessGuide
+## ⚙️ Compile & Run
 
+### 🧰 Prerequisites
+- **Java JDK 17** or higher  
+- **Command Line Interface** (Terminal, CMD, or PowerShell)  
+- Optional: **IDE** (IntelliJ IDEA, Eclipse, or VS Code)
 
-2. Compile and run the main file:
+---
 
+### 🏃 Running from the Command Line (Basic Setup)
+
+If all your `.java` files are in the same directory:
+
+```bash
+# Step 1: Compile
 javac Main.java
+
+# Step 2: Run
 java Main
-🧑‍💻 Contributors
-Name	Role
+
+
+## 🧑‍💻 Contributors
 Kirushonthu
-	Developer / Designer / Documenter
 
-💬 Contributions are welcome! Fork this repo and submit a pull request.
-
-
-
-
-📜 License
+##📜 License
 
 This project is open-source under the MIT License.
+---------

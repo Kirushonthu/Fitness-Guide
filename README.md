@@ -6,18 +6,6 @@
 ![OOP](https://img.shields.io/badge/OOP-Principles-blue?style=for-the-badge)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 ![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/your-username/FitnessGuide?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/your-username/FitnessGuide?style=for-the-badge)
-
----
-
-## 🎬 Demo
-
-> Add a short GIF showing how your program runs in the console.
-
-![Demo GIF](demo.gif)
-> 💡 *Tip:* Record your console with [ScreenToGif](https://www.screentogif.com/) or [asciinema.org](https://asciinema.org/) and save it as `demo.gif` in the project root.
-
 ---
 
 ## ✨ Overview
